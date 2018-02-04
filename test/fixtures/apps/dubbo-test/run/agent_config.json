@@ -1,0 +1,392 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": true,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/app/view",
+      "cache": true,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "env": "unittest",
+    "name": "dubbo-test",
+    "keys": "<String len: 6>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "x-forwarded-host",
+    "pkg": {
+      "name": "dubbo-test",
+      "version": "0.0.1"
+    },
+    "baseDir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test",
+    "HOME": "/Users/caoxiaopeng",
+    "rundir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 14191>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      }
+    },
+    "logger": {
+      "dir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/logs/dubbo-test",
+      "encoding": "utf8",
+      "env": "unittest",
+      "level": "INFO",
+      "consoleLevel": "WARN",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": false,
+      "appLogName": "dubbo-test-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {},
+      "allowDebugAtProd": true,
+      "type": "agent"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "responseTimeout": 60000
+    },
+    "dubboclient": {
+      "dubboAgent": {
+        "application": {
+          "name": "demo-provider"
+        },
+        "register": "localhost:2181",
+        "dubboVer": "2.5.4-SNAPSHOT",
+        "root": "dubbo",
+        "dependencies": {
+          "Foo": {
+            "interface": "com.alibaba.dubbo.demo.provider.DemoService"
+          }
+        }
+      }
+    },
+    "coreMiddlewares": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "appMiddlewares": [],
+    "appMiddleware": []
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-security",
+      "version": "2.0.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-onerror",
+      "version": "2.0.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-multipart",
+      "version": "2.0.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-schedule",
+      "version": "3.1.1"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-logrotator",
+      "version": "3.0.1"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-static",
+      "version": "2.1.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-view",
+      "version": "2.0.0"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "3.14.0"
+    },
+    "dubbo": {
+      "enable": true,
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo",
+      "name": "dubbo",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "1.0.0"
+    }
+  }
+}
