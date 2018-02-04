@@ -1,4 +1,4 @@
-# egg-dubbo
+# egg-dubbo-plugin
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-dubbo --save
+$ npm i egg-dubbo-plugin --save
 ```
 
 ## Usage
