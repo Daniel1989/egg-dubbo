@@ -9,8 +9,8 @@
 <!--
 change to daniel
 -->
-[npm-image]: https://img.shields.io/npm/v/egg-dubbo.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-dubbo
+[npm-image]: https://img.shields.io/npm/v/egg-dubbo-plugin.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-dubbo-plugin
 [travis-image]: https://img.shields.io/travis/Daniel1989/egg-dubbo.svg?style=flat-square
 [travis-url]: https://travis-ci.org/Daniel1989/egg-dubbo
 [codecov-image]: https://img.shields.io/codecov/c/github/Daniel1989/egg-dubbo.svg?style=flat-square
