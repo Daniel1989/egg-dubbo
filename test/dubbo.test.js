@@ -37,6 +37,6 @@ describe('test/dubbo.test.js', () => {
     };
     return app.httpRequest()
         .get('/')
-        .expect(205)
+        .expect(204)
   });
 });
