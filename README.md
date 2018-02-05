@@ -44,7 +44,19 @@ exports.dubbo = {
 
 ```js
 // {app_root}/config/config.default.js
+use  [node-zookeeper-dubbo](https://github.com/p412726700/node-zookeeper-dubbo).
 exports.dubbo = {
+    dubboAgent: {
+            application:{name:'demo-provider'},
+            register:'localhost:2181',
+            dubboVer:'2.5.4-SNAPSHOT',
+            root:'dubbo',
+            dependencies:{
+                Foo:{
+                    interface:'com.alibaba.dubbo.demo.provider.DemoService',
+                },
+            }
+        }
 };
 ```
 
