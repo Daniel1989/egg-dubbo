@@ -22,6 +22,11 @@ describe('test/dubbo.test.js', () => {
         "getResult":function(){
             return 'hello'
         }
+      },
+      "dependencies":{
+          "Foo":{
+
+          }
       }
     };
     return app.httpRequest()
@@ -34,6 +39,11 @@ describe('test/dubbo.test.js', () => {
 
   it('should not GET /', () => {
     app.dubboClinent.dubboAgent={
+      "dependencies":{
+        "Foo":{
+
+        }
+      }
     };
     return app.httpRequest()
         .get('/')

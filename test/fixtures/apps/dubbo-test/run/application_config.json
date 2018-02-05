@@ -80,22 +80,22 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-session/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-security/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-jsonp/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-onerror/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-i18n/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-multipart/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-schedule/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-logrotator/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-static/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-view/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-mock/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-mock/lib/tmp/config/locales",
-        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/config/locales"
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-session/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-security/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-jsonp/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-onerror/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-i18n/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-watcher/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-multipart/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-schedule/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-logrotator/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-static/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-view/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-mock/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-mock/lib/tmp/config/locales",
+        "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -105,8 +105,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -131,7 +131,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/app/public",
+      "dir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -139,7 +139,7 @@
       "files": "<LRU>"
     },
     "view": {
-      "root": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/app/view",
+      "root": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/app/view",
       "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -156,9 +156,9 @@
       "name": "dubbo-test",
       "version": "0.0.1"
     },
-    "baseDir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test",
+    "baseDir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test",
     "HOME": "/Users/caoxiaopeng",
-    "rundir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/run",
+    "rundir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -189,7 +189,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/test/fixtures/apps/dubbo-test/logs/dubbo-test",
+      "dir": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/logs/dubbo-test",
       "encoding": "utf8",
       "env": "unittest",
       "level": "INFO",
@@ -303,8 +303,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-session",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -316,8 +316,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-security",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-security",
       "version": "2.0.0"
     },
     "jsonp": {
@@ -329,8 +329,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-jsonp",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -342,8 +342,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-onerror",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -353,8 +353,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-i18n",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -364,8 +364,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-watcher",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -375,8 +375,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-multipart",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "schedule": {
@@ -386,8 +386,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-schedule",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-schedule",
       "version": "3.1.1"
     },
     "logrotator": {
@@ -399,8 +399,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-logrotator",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-logrotator",
       "version": "3.0.1"
     },
     "static": {
@@ -410,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-static",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -421,13 +421,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg/config/plugin.js",
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-view",
+      "from": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg/config/plugin.js",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-view",
       "version": "2.0.0"
     },
     "egg-mock": {
       "enable": true,
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo/node_modules/egg-mock",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-mock",
       "name": "egg-mock",
       "dependencies": [],
       "optionalDependencies": [],
@@ -436,12 +436,12 @@
     },
     "dubbo": {
       "enable": true,
-      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/egg-dubbo",
+      "path": "/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo",
       "name": "dubbo",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "version": "1.0.0"
+      "version": "1.1.1"
     }
   }
 }
