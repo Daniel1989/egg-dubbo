@@ -6,7 +6,9 @@
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
-
+<!--
+change to daniel
+-->
 [npm-image]: https://img.shields.io/npm/v/egg-dubbo.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-dubbo
 [travis-image]: https://img.shields.io/travis/Daniel1989/egg-dubbo.svg?style=flat-square
