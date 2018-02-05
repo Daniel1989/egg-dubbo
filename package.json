@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-dubbo.git"
+    "url": "git+https://github.com/Daniel1989/egg-dubbo.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-dubbo#readme",
+  "homepage": "https://github.com/Daniel1989/egg-dubbo#readme",
   "author": "Daniel",
   "license": "MIT"
 }
