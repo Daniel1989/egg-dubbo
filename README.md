@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-dubbo.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-dubbo
-[travis-image]: https://img.shields.io/travis/eggjs/egg-dubbo.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-dubbo
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-dubbo.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-dubbo?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-dubbo.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-dubbo
+[travis-image]: https://img.shields.io/travis/Daniel1989/egg-dubbo.svg?style=flat-square
+[travis-url]: https://travis-ci.org/Daniel1989/egg-dubbo
+[codecov-image]: https://img.shields.io/codecov/c/github/Daniel1989/egg-dubbo.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/Daniel1989/egg-dubbo?branch=master
+[david-image]: https://img.shields.io/david/Daniel1989/egg-dubbo.svg?style=flat-square
+[david-url]: https://david-dm.org/Daniel1989/egg-dubbo
 [snyk-image]: https://snyk.io/test/npm/egg-dubbo/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-dubbo
 [download-image]: https://img.shields.io/npm/dm/egg-dubbo.svg?style=flat-square
