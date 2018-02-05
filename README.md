@@ -44,7 +44,7 @@ exports.dubbo = {
 
 ```js
 // {app_root}/config/config.default.js
-use  [node-zookeeper-dubbo](https://github.com/p412726700/node-zookeeper-dubbo).
+use  node-zookeeper-dubbo, see [here](https://github.com/p412726700/node-zookeeper-dubbo).
 exports.dubbo = {
     dubboAgent: {
             application:{name:'demo-provider'},
