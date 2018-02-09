@@ -1,6 +1,5 @@
-2018-02-09 16:52:36,174 ERROR 5066 [egg:dubboAgent] call dubbo error
-2018-02-09 16:52:36,178 ERROR 5066 nodejs.TypeError: Cannot read property 'getResult' of undefined
-    at DubboClient.request (/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/app.js:15:51)
+2018-02-09 16:57:40,420 ERROR 5194 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'getResult' of undefined
+    at DubboClient.request (/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/app.js:14:47)
     at Object.dubbo (/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/app/extend/context.js:7:35)
     at HomeController.index (/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/app/controller/home.js:8:28)
     at Object.callFn (/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-core/lib/utils/index.js:44:21)
@@ -68,6 +67,6 @@
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:188:7)
 
-pid: 5066
+pid: 5194
 hostname: caoxiaopengdeMacBook-Pro.local
 
