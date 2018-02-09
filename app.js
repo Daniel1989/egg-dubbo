@@ -11,12 +11,7 @@ module.exports = app => {
         }
 
         request(className, method, javaParams) {
-            try {
-                return  this.dubboAgent[className][method](...javaParams);
-            }catch(e){
-                app.coreLogger.error('[egg:dubboAgent] call dubbo error');
-                app.coreLogger.error(e);
-            }
+            return  this.dubboAgent[className][method](...javaParams);
         }
 
     }

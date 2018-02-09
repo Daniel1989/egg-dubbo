@@ -1,13 +1,13 @@
-2018-02-05 13:13:48,076 INFO 16897 [egg:logger] init all loggers with options: {"dir":"/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/logs/dubbo-test","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"dubbo-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":true,"type":"application"}
-2018-02-05 13:13:48,084 INFO 16897 [egg-schedule]: register schedule /Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-logrotator/app/schedule/clean_log.js
-2018-02-05 13:13:48,084 INFO 16897 [egg-schedule]: register schedule /Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
-2018-02-05 13:13:48,183 INFO 16897 [egg-static] starting static serve /public/ -> /Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/app/public
-2018-02-05 13:13:48,186 INFO 16897 [egg-security] use csrf middleware
-2018-02-05 13:13:48,187 INFO 16897 [egg-security] use methodnoallow middleware
-2018-02-05 13:13:48,188 INFO 16897 [egg-security] use noopen middleware
-2018-02-05 13:13:48,188 INFO 16897 [egg-security] use nosniff middleware
-2018-02-05 13:13:48,189 INFO 16897 [egg-security] use xssProtection middleware
-2018-02-05 13:13:48,189 INFO 16897 [egg-security] use xframe middleware
-2018-02-05 13:13:48,190 INFO 16897 [egg-security] use dta middleware
-2018-02-05 13:13:48,190 INFO 16897 [egg-security] compose 7 middlewares into one security middleware
-2018-02-05 13:13:48,231 INFO 16897 [egg-watcher:app] watcher start success
+2018-02-09 16:52:35,971 INFO 5066 [egg:logger] init all loggers with options: {"dir":"/Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/logs/dubbo-test","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"dubbo-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":true,"type":"application"}
+2018-02-09 16:52:35,980 INFO 5066 [egg-schedule]: register schedule /Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-02-09 16:52:35,980 INFO 5066 [egg-schedule]: register schedule /Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-02-09 16:52:36,087 INFO 5066 [egg-static] starting static serve /public/ -> /Users/caoxiaopeng/Desktop/daniel/work/eggSample/gitnpm/egg-dubbo/test/fixtures/apps/dubbo-test/app/public
+2018-02-09 16:52:36,090 INFO 5066 [egg-security] use csrf middleware
+2018-02-09 16:52:36,091 INFO 5066 [egg-security] use methodnoallow middleware
+2018-02-09 16:52:36,092 INFO 5066 [egg-security] use noopen middleware
+2018-02-09 16:52:36,093 INFO 5066 [egg-security] use nosniff middleware
+2018-02-09 16:52:36,094 INFO 5066 [egg-security] use xssProtection middleware
+2018-02-09 16:52:36,094 INFO 5066 [egg-security] use xframe middleware
+2018-02-09 16:52:36,095 INFO 5066 [egg-security] use dta middleware
+2018-02-09 16:52:36,095 INFO 5066 [egg-security] compose 7 middlewares into one security middleware
+2018-02-09 16:52:36,138 INFO 5066 [egg-watcher:app] watcher start success
